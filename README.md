@@ -1,5 +1,7 @@
 # skills
 
+[![skills.sh](https://skills.sh/b/dmunro-karius/skills)](https://skills.sh/dmunro-karius/skills)
+
 Personal [agent skills](https://agentskills.io) — installable into Claude Code and 70+ other agents
 via the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
@@ -7,13 +9,13 @@ via the [`skills`](https://github.com/vercel-labs/skills) CLI.
 
 ```bash
 # everything, into this project's .claude/skills/
-npx skills@latest add OWNER/skills
+npx skills@latest add dmunro-karius/skills
 
 # one skill, globally (~/.claude/skills/)
-npx skills@latest add OWNER/skills --skill unslop -g -a claude-code -y
+npx skills@latest add dmunro-karius/skills --skill unslop -g -a claude-code -y
 
 # see what's in here without installing
-npx skills@latest add OWNER/skills --list
+npx skills@latest add dmunro-karius/skills --list
 ```
 
 ## Skills

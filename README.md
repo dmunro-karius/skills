@@ -22,7 +22,8 @@ npx skills@latest add dmunro-karius/skills --list
 
 | Skill | Description |
 | ----- | ----------- |
-| [`unslop`](skills/unslop/SKILL.md) | _placeholder — body not written yet_ |
+| [`unslop`](skills/unslop/SKILL.md) | Cut AI tells from any writing. Must always apply. |
+| [`typescript-best-practices`](skills/typescript-best-practices/SKILL.md) | TypeScript best practices. Use when reading or editing any `.ts` or `.tsx` file. |
 
 ## Layout
 
@@ -34,6 +35,8 @@ templates) live alongside it in the same directory.
 skills/
   <skill-name>/
     SKILL.md
+    references/
+      <topic>.md
 ```
 
 Set `metadata.internal: true` in the frontmatter to hide a work-in-progress
